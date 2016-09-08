@@ -21,6 +21,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0.alpha3.1'
 gem 'high_voltage'
 gem 'mysql2', '~> 0.3.18'
+gem 'pg', '~> 0.18'
+
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
